@@ -1,1 +1,79 @@
+================= Compute Engine ================
+
+Compute Engine – Virtual machines running in Google’s infrastructure.
+
+App Engine – Fully managed platform for building and deploying apps.
+
+Kubernetes Engine (GKE) – Managed Kubernetes for containerized workloads.
+
+Cloud Functions – Event-driven, serverless compute service.
+
+Cloud Run – Fully managed container runtime without server management.
+
+Bare Metal Solution – Dedicated physical servers for specialized workloads.
+================= Load Balancer ================
 https://www.youtube.com/watch?v=istJnfmUcjQ
+
+================= Storage ================
+
+Cloud Storage – Scalable object storage for unstructured data.
+
+Persistent Disk – Durable block storage for Compute Engine and GKE.
+
+Filestore – Managed file storage for applications needing shared file systems.
+
+Archive Storage – Low-cost, long-term data storage option.
+
+================= Databases ================
+
+Cloud SQL – Managed MySQL, PostgreSQL, and SQL Server databases.
+
+Cloud Spanner – Globally distributed, horizontally scalable relational database.
+
+Firestore (Datastore mode) – Serverless NoSQL document database.
+
+BigQuery – Serverless data warehouse with real-time analytics.
+
+Memorystore – Managed Redis and Memcached for caching.
+
+================= Data & Analytics ================
+
+
+Pub/Sub – Messaging service for event-driven architectures.
+
+Dataflow – Managed service for stream and batch data processing.
+
+Dataproc – Managed Hadoop/Spark clusters for big data processing.
+
+BigQuery ML – Build and run ML models directly inside BigQuery.
+
+Looker – Business intelligence and data visualization platform.
+
+================= AI & Machine Learning ================
+
+Vertex AI – End-to-end ML platform for training, deploying, and managing models.
+
+Cloud Vision API – Image recognition and analysis service.
+
+Cloud Translation API – Neural-based translation across languages.
+
+Cloud Speech-to-Text – Converts spoken words into text.
+
+Cloud Text-to-Speech – Generates natural-sounding speech from text.
+
+================= Networking ================
+
+Cloud CDN – Global content delivery network for faster app delivery.
+
+Cloud Interconnect – Dedicated/private connections to Google Cloud.
+
+Cloud DNS – Scalable, reliable domain name system service.
+
+================= Monitoring & DevOps ================
+
+Cloud Logging (Operations Suite) – Centralized logging for applications and infra.
+
+Cloud Monitoring (Operations Suite) – Metrics, dashboards, uptime checks, and alerts.
+
+================= Load Balancer ================
+================= Load Balancer ================
