@@ -1,1 +1,11 @@
-gcloud 
+gcloud auth login
+gcloud auth application-default login
+gcloud auth list
+gcloud config set account ACCOUNT_EMAIL
+gcloud auth revoke ACCOUNT_EMAIL
+gcloud auth revoke --all
+gcloud auth print-access-token
+gcloud auth print-identity-token
+gcloud auth activate-service-account SERVICE_ACCOUNT_EMAIL --key-file=KEY.json
+gcloud auth application-default activate-service-account SERVICE_ACCOUNT_EMAIL --key-file=KEY.json
+
