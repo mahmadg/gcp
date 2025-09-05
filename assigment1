@@ -1,0 +1,24 @@
+create project "dmz-dev"
+create project "dmz-prod"
+assign same billing account
+pick dmz-dev project
+set budget $10
+set alert on email at 50%
+create vm "dmz-dev-web-server"
+set alert on cpu spike and check you recieved email or not
+Install and configure the Google Cloud SDK (gcloud CLI) on your local machine and authenticate it with gcloud command
+sudo apt update
+sudo apt install apache2 -y
+echo "Hello from GCP VM" | sudo tee /var/www/html/index.html
+Create a VPC network named dmz-custom-vpc.
+Add a subnet in region us-central1.
+Launch another VM inside this subnet.
+Test connectivity between the two VMs using ping.
+
+
+add service account "ops11" and "ops22"
+create role "ops-role" (vm-create, storage-admin)
+create bucket "dev-bucket8522" Make the file publicly accessible and get the public URL.
+upload 3 file in above bucket and create 2 folder
+Create a custom IAM role with permissions: (storage.buckets.create, compute.instances.start)
+Assign this role to a new user (your secondary Gmail account).
