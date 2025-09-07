@@ -1,5 +1,8 @@
 create project "dmz-dev"
+ate project "dmz-test"
+ate project "dmz-verify"
 create project "dmz-prod"
+ate project "dmz-mgmt"
 assign same billing account
 pick dmz-dev project
 set budget $10
