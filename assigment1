@@ -4,7 +4,7 @@ ate project "dmz-verify"
 create project "dmz-prod"
 ate project "dmz-mgmt"
 assign same billing account
-pick dmz-dev project
+pick dmz-mgmt project
 set budget $10
 set alert on email at 50%
 create vm "dmz-dev-web-server"
